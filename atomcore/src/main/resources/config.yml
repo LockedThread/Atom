@@ -1,0 +1,12 @@
+vault:
+  economy:
+    enabled: true
+    # Defined as having a negative bank balance. Allows players to have negative balance and use their money until they reach their overdraft amount.
+    overdrafting:
+      enabled: true
+      amount: '-10000.0'
+    starting-money: '500.0'
+  permissions:
+    enabled: true
+  chat:
+    enabled: true

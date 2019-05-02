@@ -6,7 +6,25 @@
 
     <groupId>net.atom</groupId>
     <artifactId>atom-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
+    <properties>
+        <tacoSpigotVersion>1.8.8-R0.2-SNAPSHOT</tacoSpigotVersion>
+        <vaultVersion>1.7</vaultVersion>
+    </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>net.techcable.tacospigot</groupId>
+            <artifactId>server</artifactId>
+            <version>${tacoSpigotVersion}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.milkbowl.vault</groupId>
+            <artifactId>VaultAPI</artifactId>
+            <version>${vaultVersion}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 </project>
